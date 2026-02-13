@@ -1,6 +1,12 @@
 Tomcat + PostgreSQL Docker Demo
-
-
+IMMEDIATLEY AFTER DOWNLOADING ADD A FILE NAMED ".env" TO THE ROOT DIRECTORY AND PASTE THESE CONTENTS
+************************************
+DB_HOST=db
+DB_PORT=5432
+DB_NAME=citydb
+DB_USER=city
+DB_PASSWORD=citypass
+************************************
 
 This project is a simple multi-container backend setup using:
 
@@ -430,6 +436,7 @@ demo
 Important: use db, not localhost.
 
 Inside Docker, services communicate using service names.
+
 
 
 
